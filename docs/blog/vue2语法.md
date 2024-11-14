@@ -6,7 +6,7 @@ categories:
 tags:
   - JavaScript
   - 学习
-sticky: 4
+
 ---
 
 1.插值表达式

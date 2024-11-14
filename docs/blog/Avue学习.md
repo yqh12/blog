@@ -6,7 +6,6 @@ categories:
 tags:
   - JavaScript
   - 学习
-sticky: 3
 ---
 1.在现有项目中使用 Avue 时，可以通过 npm 或 yarn 进行安装(需要先引入ElementUI作为依赖支持)：
 ---

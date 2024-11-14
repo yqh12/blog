@@ -6,7 +6,7 @@ categories:
 tags:
   - JavaScript
   - 模仿
-sticky: 1
+sticky: 3
 ---
 1.SyntaxError: Identifier '__vite__injectQuery' has already been declared  
 ---

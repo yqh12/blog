@@ -6,7 +6,6 @@ categories:
 tags:
   - JavaScript
   - 学习
-sticky: 2
 ---
 (vite创建vue2未导入相应的配置)  
 ---
