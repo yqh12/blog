@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    var arr = [1, [1, 2, [1, 2, 3]]]
+    function qp(a) {
+        // var arr1 = [...new Set(a.flat(3))]
+        // return arr1
+        let arr = []
+        for (let i = 0; i < a.length; i++) {
+            if (Array.isArray(a[i])) {
+                arr = arr.concat(qp(a[i]))
+            }
+            else {
+                arr.push(a[i])
+            }
+        }
+        return arr
+    }
+    console.log("11111111", qp(arr))
+
+</script>
+
+</html>
